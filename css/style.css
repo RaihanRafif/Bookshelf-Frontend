@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+/* ALL */
+html,
+body {
+  font-family: Raleway;
+  padding: 0;
+  background-color: #D83A56;
+}
+.judul{
+  margin-top: -1% ;
+}
+.container {
+  width: 100%;
+  padding: 10px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+/* Input Buku dan Search */
+.header {
+  margin-right: 30px;
+  width: 30%;
+}
+.bookinput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #66de93;
+  padding-right: 20px;
+}
+.container {
+  background-color: #ffeac9;
+  padding: 20px;
+}
+.content {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.bookinput .kolom-input {
+  width: 50%;
+}
+.bookinput div {
+  margin-bottom: 5px !important;
+}
+.bookinput .form-title {
+  display: flex;
+}
+.bookinput .form-title label {
+  margin-right: auto;
+}
+.pencarian {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 94%;
+  background-color: #66de93;
+}
+.input-pencarian {
+  width: 85%;
+}
+
+.btn-input {
+  border-radius: 10px;
+}
+
+.switch {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 34px;
+  margin-left: -12%;
+}
+.title-slider {
+  margin-left: -7%;
+}
+.title-slider .slider {
+  margin-left: -10%;
+}
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ff616d;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+button {
+  background-color: #66DE93;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  font-weight: 500;
+  color: black;
+}
+
+
+/* rak */
+.rak {
+  text-align: center;
+  width: 30%;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.rak div {
+  text-align: left;
+  padding-left: 10px;
+}
+.header-rak {
+  height: 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: 2px solid black;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background-color: aquamarine;
+  margin-bottom: 10px;
+}
+.header-rak h2 {
+  font-size: 2em;
+  text-align: center;
+}
+.item{
+  overflow-x: auto;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  border-left: 5px solid black;
+  border-radius: 10px;
+}
+.list-book{
+  height: 68vh;
+  overflow: auto;
+}
+
